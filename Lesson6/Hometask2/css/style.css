@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-grey: #3b3f45;
+    --grey: #4a4f56;
+    --white: #fff;
+    --orange: #da797b;
+    --after-grey: #b0b0c3;
+    --dark-liac: #625e77;
+    --light-liac: #88839e;
+    --medium-liac: #7a7593;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: solid 15px var(--white);
+    overflow: auto;
+    background-color: var(--dark-grey);
+}
+
+header {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    color: var(--orange);
+    text-align: center;
+    line-height: 15px;
+    background-color: var(--grey);
+}
+
+ul {
+    padding: 50px;
+    display: block;
+    margin-top: 20px;
+    transition: all 0.1s ease-in;
+}
+
+ul li {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 25px;
+    list-style: none;
+    width: 700px;
+    color: var(--white);
+}
+
+ul li:nth-child(odd) {
+    background-color: var(--light-liac);
+}
+
+ul li:nth-child(even) {
+    background-color: var(--medium-liac);
+}
+
+ul li:hover {
+    background-color: var(--dark-liac);
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+input[type="checkbox"]:checked + label {
+    width: 25px;
+    height: 25px;
+    text-decoration: line-through;
+    color: #b0b0c3;
+}
+
+ul li:active {
+    background-color: var(--orange);
+}
+
+/*text*/
+.pickles:after {
+    content: " ( for the next lessons about CSS )";
+    font-size: 15px;
+    color: var(--after-grey);
+}
+
+.apples:after {
+    content: " ( for more CSS manipulations )";
+    font-size: 15px;
+    color: var(--after-grey);
+}
+
+.oranges:after {
+    content: " ( because they are awesome )";
+    font-size: 15px;
+    color: var(--after-grey);
+}
+
+.plates:after {
+    content: " ( hm..they always disappear )";
+    font-size: 15px;
+    color: var(--after-grey);
+}
+
+.sake:after {
+    content: " ( for my friends )";
+    font-size: 15px;
+    color: var(--after-grey);
+}
+/*text*/
+
+footer {
+    background-color: var(--grey);
+    width: 700px;
+    display: block;
+    color: var(--orange);
+    padding: 15px;
+    margin: 0px auto;
+    text-align: center;
+}
