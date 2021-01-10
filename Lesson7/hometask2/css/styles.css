@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: solid 15px #2b81ac;
+    overflow: auto;
+    background-color: #3399cc;
+}
+
+.headline {
+    color: white;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+.list_weather {
+    text-align: center;
+    padding: 10px;
+    font-size: 0;
+}
+
+.list_weather li {
+    display: inline-block;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 5px solid white;
+    height: 100px;
+    text-align: center;
+}
+
+/*style hover*/
+
+ul:hover :not(:hover) {
+    opacity: 0.6;
+}
+
+.list_weather .temp {
+    display: inline-block;
+    min-width: 100%;
+    color: rgb(90, 83, 83);
+}
+
+.list_weather .city_name {
+    display: inline-block;
+    padding: 15px 0 15px 0;
+    color: white;
+}
+
+.list_weather #Lisbon {
+    width: 40%;
+    background-color: #3399cc;
+}
+
+.list_weather #Paris {
+    width: 30%;
+    background-color: #33cccc;
+}
+
+.list_weather #Belgrade {
+    width: 30%;
+    background-color: #996699;
+}
+
+.list_weather #Moscow {
+    width: 25%;
+    background-color: #c24747;
+}
+
+.list_weather #Tel-Aviv {
+    width: 25%;
+    background-color: #e2674a;
+}
+
+.list_weather #Cair {
+    width: 25%;
+    background-color: #ffcc66;
+}
+
+.list_weather #New-York {
+    width: 25%;
+    background-color: #99cc99;
+}
+
+.list_weather #New-Delhi {
+    width: 25%;
+    background-color: #669999;
+}
+
+.list_weather #SanFrancisco {
+    width: 50%;
+    background-color: #cc6699;
+}
+
+.list_weather #Tokyo {
+    width: 25%;
+    background-color: #339966;
+}
+
+.list_weather #Sydney {
+    width: 100%;
+    background-color: #666699;
+}
