@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e2e7ec;
+}
+
+.container {
+    width: 1120px; /*maksimalnaya wirina na min monikah*/
+    margin: 50px auto; /*stavim po centru bloki*/
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.head_image {
+    position: relative;
+}
+
+.head_image img {
+    display: flex;
+    width: 100%;
+}
+
+.head_image span {
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    color: #96928a;
+    margin-left: 20px;
+}
+
+.head_image h3 {
+    display: flex;
+    width: 500px;
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: white;
+    flex-basis: 30%;
+    height: 540px;
+}
+
+.box .date {
+    padding: 20px;
+    color: #818181;
+}
+
+.box .descr {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.box_margin {
+    margin-top: 20px;
+}
+
+.icon {
+    padding: 20px;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #8996a3;
+}
+
+.footer_content img {
+    margin-right: 15px;
+}
