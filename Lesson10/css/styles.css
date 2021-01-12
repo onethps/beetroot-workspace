@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f6f6;
+    margin-top: 100px;
+}
+
+.head_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.head_text h1 {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.head_text h1::after {
+    width: 50px;
+    content: "";
+    display: block;
+    margin: 10px auto;
+    border-top: 5px solid #dddbdb;
+}
+
+.head_text p {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    padding: 42px 60px;
+    font-family: "Lato", sans-serif;
+}
+
+.people_cards {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    height: 100%;
+}
+
+.people_cards .card img {
+    padding: 10px;
+}
+
+.card {
+    position: relative;
+}
+
+.card .desc_card h3 {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+}
+
+.card .desc_card span {
+    font-family: "Lato", sans-serif;
+    color: #646464;
+}
+
+.card .social_icons {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: none;
+    object-fit: none;
+}
+
+.card .social_icons i {
+    padding: 10px;
+    background-color: #5ecbe7;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.card:hover .social_icons {
+    display: block;
+    z-index: 2;
+    background-color: rgba(20, 80, 90, 0);
+}
+
+.card:hover .background_blue {
+    display: block;
+    z-index: 1;
+    width: 100%;
+}
+
+.card .background_blue {
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    top: 10px;
+    display: none;
+    background: #18b5dc;
+}
