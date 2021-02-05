@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    min-width: 1024px;
+    justify-content: center;
+}
+
+.text_head {
+    display: flex;
+    flex-direction: column;
+    padding: 144px 0 110px 0;
+    text-align: center;
+}
+
+.text_head h1 {
+    text-transform: uppercase;
+    color: #0ec8cb;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.text_head h4 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Montserrat", serif;
+    color: #90969f;
+    font-size: 10px;
+}
+
+.text_head p {
+    display: inline-block;
+    font-size: 14px;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-weight: 100;
+}
+
+.columns {
+    font-size: 0;
+}
+
+.columns li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #f7f7f7;
+    height: 420px;
+    border: 1px solid #ececec;
+}
+
+.columns li h4 {
+    padding: 57px 40px 38px 40px;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+}
+
+.columns li p {
+    display: inline-block;
+    max-width: 172px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+}
+
+.columns li img {
+    margin-top: 60px;
+}
+
+.anchor {
+    position: relative;
+}
+
+.image_mask {
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+.anchor:hover .image_mask {
+    display: block;
+    width: 100%;
+    background-color: #0ec8cb;
+}
+
+li:hover {
+    background-color: #0ec8cb;
+    color: white;
+}

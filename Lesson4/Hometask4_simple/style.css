@@ -1,0 +1,48 @@
+.sunset {
+    text-align: center;
+}
+
+h1 {
+    background: #a52a2a;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
+.carStyle {
+    border: 3px solid;
+    border-style: dotted;
+    border-color: black;
+}
+
+.imgPosition {
+    text-align: center;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bolding {
+    font-weight: bold;
+}
+
+.textBlueBold {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textBlueNormal {
+    color: blue;
+}

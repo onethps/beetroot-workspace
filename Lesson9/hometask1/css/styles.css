@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 132px 100px 132px 100px;
+}
+
+.main_block {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 116px 100px 116px;
+
+    box-shadow: 0px 7px 29px 0px #64646f33;
+}
+
+h1 {
+    display: flex;
+    justify-content: left;
+    min-width: 100%;
+    font-family: "Playfair Display" serif;
+    font-weight: 300;
+}
+
+.first_par:first-letter {
+    font-size: 50px;
+    padding: 10px 8px 0 3px;
+    float: left;
+    font-family: "Playfair Display", serif;
+    color: black;
+}
+
+.second_par,
+.third_par {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 25px;
+    font-family: "Lato";
+    font-weight: 300;
+    color: #7e7e7e;
+}
+
+blockquote {
+    display: flex;
+    justify-content: left;
+    min-width: 100%;
+    padding: 50px 0 44px 0;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+}
+
+blockquote::before {
+    content: open-quote;
+    font-weight: 300;
+    margin-top: -20px;
+    font-size: 30px;
+    font-family: "Lato" sans-serif;
+}
+
+.discover_button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.discover_button input[type="submit"] {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    background-color: white;
+    border: 1px solid #eaa258;
+    color: #eaa258;
+}

@@ -1,0 +1,110 @@
+.header {
+	height: 454px;
+	padding: 108px 0 102px;
+	box-sizing: border-box;
+	color: #ffffff;
+}
+
+.header_panel {
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+}
+
+/*border_round*/
+.header_panel .header_round {
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 auto;
+	align-items: center;
+	background-color: #2a69a6;
+	width: 67px;
+	height: 65px;
+	border: 2px solid black;
+}
+
+.header_panel .header_round .image_icon1 {
+	display: inline-block;
+	margin: 0 auto;
+	width: 67px;
+	height: 65px;
+	align-items: center;
+	background: url("../images/first.png") no-repeat;
+	background-position: center;
+}
+
+.header_panel .header_round .image_icon1:hover {
+	display: inline-block;
+	margin: 0 auto;
+	width: 67px;
+	height: 65px;
+	align-items: center;
+	background: url("../images/first_blue.png") no-repeat;
+	background-position: center;
+}
+
+.header_panel .header_round .image_icon2 {
+	display: inline-block;
+	margin: 0 auto;
+	width: 67px;
+	height: 65px;
+	position: relative;
+	background: url("../images/second.png") no-repeat;
+	background-position: center;
+}
+
+.header_panel .header_round .image_icon2:hover {
+	display: inline-block;
+	margin: 0 auto;
+	width: 67px;
+	height: 65px;
+	position: relative;
+	background: url("../images/second_blue.png") no-repeat;
+	background-position: center;
+}
+
+.header_panel .header_round .image_icon3 {
+	display: inline-block;
+	margin: 0 auto;
+	width: 67px;
+	height: 65px;
+	position: relative;
+	background: url("../images/third.png") no-repeat;
+	background-position: center;
+}
+
+.header_panel .header_round .image_icon3:hover {
+	display: inline-block;
+	margin: 0 auto;
+	width: 67px;
+	height: 65px;
+	position: relative;
+	background: url("../images/third_blue.png") no-repeat;
+	background-position: center;
+}
+
+.header_panel .header_round:hover {
+	background-color: white;
+}
+
+.header_headline {
+	margin: 0 0 35px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: black;
+}
+
+.header_text {
+	padding: 0 35px;
+	line-height: 24px;
+	font-weight: 100;
+	color: grey;
+}
+
+.header_image {
+	margin-bottom: 45px;
+}
+
+.header_headline {
+	margin-top: 20px;
+}
