@@ -10,7 +10,7 @@ body {
 }
 
 .header__text-main {
-    font-size: 80px;
+    font-size: 70px;
     color: #192b59;
     font-weight: 600;
     max-width: 600px;
@@ -21,6 +21,7 @@ body {
 
 .nav {
     display: flex;
+    justify-content: center;
     list-style: none;
     color: #6e7ea9;
     text-transform: uppercase;
@@ -84,4 +85,9 @@ body {
 .grid h2 span {
     display: block;
     font-size: 14px;
+}
+
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
 }
