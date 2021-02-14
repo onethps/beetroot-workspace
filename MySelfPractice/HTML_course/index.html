@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div>
-        <div class="wrap">
+    <div class="page-header">
+        <div class="wrap box-header">
             <a href="" class="logo-img"></a>
             <ul class="nav">
                 <li>Home</li>
@@ -26,21 +26,25 @@
         </div>
 
         <div class="wrap">
-            <h1 class="header__text-main">Best Software Landingpage</h1>
-            <div class="btn-group">
-                <a href="" class="header__btn-active btn-primary">Get Started Now</a>
-                <a href="" class="header__btn btn-secondary"> Learn More</a>
+            <div class="header__block">
+                <h1 class="header__text-main">Best Software Landingpage</h1>
+                <div class="btn-group">
+                    <a href="" class="header__btn-active btn-primary">Get Started Now</a>
+                    <a href="" class="header__btn btn-secondary"> Learn More</a>
+                </div>
+                <div class="screen-header"></div>
             </div>
         </div>
+
     </div>
 
-    <div>
+    <div class="company__block">
         <div class="wrap">
             <ul class="company__logo-block">
-                <li class="logo-item"><img src="" alt=""></li>
-                <li class="logo-item"><img src="" alt=""></li>
-                <li class="logo-item"><img src="" alt=""></li>
-                <li class="logo-item"><img src="" alt=""></li>
+                <li class="logo-item company1"></li>
+                <li class="logo-item company2"></li>
+                <li class="logo-item company3"></li>
+                <li class="logo-item company4"></li>
             </ul>
         </div>
     </div>
@@ -49,7 +53,7 @@
     <div class="page-grid">
         <div class="wrap">
             <div class="grid">
-                <h2>
+                <h2 class="tittle-h2">
                     <span>Features</span>Best Features Even Seen
                 </h2>
                 <div class="grid-item">
@@ -123,7 +127,7 @@
 
     <div class="subscribe__block">
         <div class="wrap">
-            <div>
+            <div class="subscripe__text">
                 <h2>
                     <span>Subscribe</span>signup for a trail
                 </h2>
@@ -133,7 +137,7 @@
                 <input type="email" placeholder="Enter your email adress">
                 <button class="btn-primary" type="submit">Subscribe</button>
             </div>
-            <img src="./img/Robot.png" alt="robot">
+            <img src="./img/Robot.png" class="subscibe__img" alt="robot">
         </div>
     </div>
 
@@ -162,12 +166,12 @@
 
     <div class="stat__block">
         <div class="wrap">
-            <h2><span>Fun Facts</span> Some Fun Facts About Dashboard</h2>
-            <ul>
-                <li><span>53k</span>layouts</li>
-                <li><span>10k</span>projects</li>
-                <li><span>12k</span>cup coffe</li>
-                <li><span>120</span>award</li>
+            <h2 class="tittle-h2"><span>Fun Facts</span> Some Fun Facts About Dashboard</h2>
+            <ul class="stat-list">
+                <li class="stat-item"><span>53k</span>layouts</li>
+                <li class="stat-item"><span>10k</span>projects</li>
+                <li class="stat-item"><span>12k</span>cup coffe</li>
+                <li class="stat-item"><span>120</span>award</li>
             </ul>
         </div>
     </div>
@@ -226,11 +230,11 @@
 
     <div class="screen__block">
         <div class="wrap">
-            <h3>
+            <h2 class="tittle-h2">
                 <span>Screen Previev</span>
                 Screenshot With Details
-            </h3>
-            <img src="" alt="screens">
+            </h2>
+            <img class="screen" src="./img/screenshot.png" alt="screens">
         </div>
     </div>
 
@@ -277,50 +281,52 @@
                 Pricing Plans
             </h2>
 
-            <div class="plan">
-                <h3>
-                    <span>free</span>
-                    starter
-                </h3>
-                <ul>
-                    <li>Unlimited users Active</li>
-                    <li>1 GB Bandwidth Speed</li>
-                    <li>256 MB Memory Card</li>
-                    <li>Free Domain Name</li>
-                    <li>Free Hosting Name</li>
-                    <li>24x7 Online Support </li>
-                </ul>
-                <a href="" class="btn-choose-plan">Choose Plan</a>
-            </div>
-            <div class="plan--active">
-                <h3>
-                    <span>90</span>
-                    starter
-                </h3>
-                <ul>
-                    <li>Unlimited users Active</li>
-                    <li>1 GB Bandwidth Speed</li>
-                    <li>256 MB Memory Card</li>
-                    <li>Free Domain Name</li>
-                    <li>Free Hosting Name</li>
-                    <li>24x7 Online Support </li>
-                </ul>
-                <a href="" class="btn-choose-plan">Choose Plan</a>
-            </div>
-            <div class="plan">
-                <h3>
-                    <span>350</span>
-                    starter
-                </h3>
-                <ul>
-                    <li>Unlimited users Active</li>
-                    <li>1 GB Bandwidth Speed</li>
-                    <li>256 MB Memory Card</li>
-                    <li>Free Domain Name</li>
-                    <li>Free Hosting Name</li>
-                    <li>24x7 Online Support </li>
-                </ul>
-                <a href="" class="btn-choose-plan">Choose Plan</a>
+            <div class="plans">
+                <div class="plan">
+                    <h3>
+                        <span>free</span>
+                        starter
+                    </h3>
+                    <ul>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                        <li>Free Domain Name</li>
+                        <li>Free Hosting Name</li>
+                        <li>24x7 Online Support </li>
+                    </ul>
+                    <a href="" class="btn-plan btn-secondary">Choose Plan</a>
+                </div>
+                <div class="plan plan__active">
+                    <h3>
+                        <span class="ppln__active">90</span>
+                        starter
+                    </h3>
+                    <ul>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                        <li>Free Domain Name</li>
+                        <li>Free Hosting Name</li>
+                        <li>24x7 Online Support </li>
+                    </ul>
+                    <a href="" class="btn-plan-active btn-primary">Choose Plan</a>
+                </div>
+                <div class="plan plan__350">
+                    <h3>
+                        <span class="starter350">350</span>
+                        starter
+                    </h3>
+                    <ul>
+                        <li>Unlimited users Active</li>
+                        <li>1 GB Bandwidth Speed</li>
+                        <li>256 MB Memory Card</li>
+                        <li>Free Domain Name</li>
+                        <li>Free Hosting Name</li>
+                        <li>24x7 Online Support </li>
+                    </ul>
+                    <a href="" class="btn-plan btn-secondary">Choose Plan</a>
+                </div>
             </div>
         </div>
     </div>
